@@ -1,0 +1,15 @@
+{
+  "name": "hospital-slow-reveal",
+  "version": "1.0.0",
+  "description": "KG1 classroom activity",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Manges <michael.manges@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}

@@ -1,0 +1,151 @@
+
+body {
+	background-image: url("../src/uae-flag.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	font-size: 10px;
+}
+
+.main-div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	height: 98vh;
+}
+
+.one, 
+.two, 
+.three, 
+.four, 
+.five {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 19.5vh;
+}
+
+#one-left, 
+#two-left, 
+#three-left, 
+#four-left, 
+#five-left,
+#one-right, 
+#two-right, 
+#three-right, 
+#four-right, 
+#five-right {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	border: 1px solid #ccc;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#one-left:hover,
+#two-left:hover, 
+#three-left:hover, 
+#four-left:hover, 
+#five-left:hover, 
+#one-right:hover, 
+#two-right:hover, 
+#three-right:hover, 
+#four-right:hover, 
+#five-right:hover {
+	cursor: pointer;
+}
+
+.visible {
+	visibility: visible;
+	opacity: 1;
+	/* add fade effect when clicked */
+	-webkit-transition: opacity 0.35s linear;
+	transition: opacity 0.35s linear;
+}
+
+p {
+	font-size: 4.5rem;
+	font-family: 'Comic Sans MS';
+	color: #777;
+}
+
+#one-left {
+	background-color: red;
+}
+
+#one-left p {
+	color: #ccc;
+}
+
+#one-right {
+	background-color: yellow;
+}
+
+#two-left {
+	background-color: blue;
+}
+
+#two-left p {
+	color: #ccc;
+}
+
+#two-right {
+	background-color: saddlebrown;
+}
+
+#two-right p {
+	color: #ccc;
+}
+
+#three-left {
+	background-color: gray;
+}
+
+#three-left p {
+	color: #ccc;
+}
+
+#three-right {
+	background-color: #ffb6c1;  
+}
+
+#four-left {
+	background-color: purple;
+}
+
+#four-right {
+	background-color: orange;
+}
+
+
+#four-left p {
+	color: #ccc;
+}
+
+#five-left {
+	background-color: #333;
+}
+
+#five-left p {
+	color: #ccc;
+}
+
+#five-right {
+	background-color: green;  
+}
+
+#five-right p {
+	color: #ccc;
+}
