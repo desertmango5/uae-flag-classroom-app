@@ -1,2 +1,4 @@
-# uae-flag-classroom-app
-A slow reveal app for my wife's ESL KG class
+# KG Slow Reveal Learning App
+### Can use colors or numbers to engage ESL KG students
+
+
